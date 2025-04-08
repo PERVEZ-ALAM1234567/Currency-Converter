@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+    
+    <!-- Viewport for Mobile Responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Optimized Title (Include Keywords) -->
+    <title>CURRENCY CONVERTER | REAL-TIME EXCHANGE RATES</title>
+
+    <!-- Favicon for All Devices -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="icon" type="image/svg+xml" href="SharedScreenshot.png">
+    
+    <!-- Apple Touch Icon (for iPhones/iPads) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+    <!-- Meta Description (Improve Search Engine Ranking) -->
+    <meta name="description" content="Convert currencies instantly with real-time exchange rates. Get accurate conversions for USD, EUR, GBP, and more!">
+
+    <!-- Keywords for SEO -->
+    <meta name="keywords" content="currency converter, exchange rates, real-time currency, USD to EUR, forex rates, convert money online">
+
+    <!-- Author -->
+    <meta name="author" content="Your Name">
+
+    <!-- Open Graph (OG) for Social Media Sharing -->
+    <meta property="og:title" content="Currency Converter | Real-Time Exchange Rates">
+    <meta property="og:description" content="Easily convert currencies with live exchange rates. Fast, accurate, and user-friendly currency conversion.">
+    <meta property="og:image" content="https://yourwebsite.com/preview-image.jpg"> <!-- Add a relevant image -->
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card for Better Social Media Display -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Currency Converter | Real-Time Exchange Rates">
+    <meta name="twitter:description" content="Get live exchange rates and convert any currency instantly.">
+    <meta name="twitter:image" content="https://yourwebsite.com/preview-image.jpg">
+    
+    <!-- Favicon (Improves Branding) -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Preconnect to CDN for Faster Loading -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div class="converter">
+        <h2 class="text-center">Currency Converter</h2>
+        <div class="mb-3">
+            <label for="fromCurrency" class="form-label">From Currency:</label>
+            <select id="fromCurrency" class="form-select">
+                <!-- Options will be populated dynamically -->
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="toCurrency" class="form-label">To Currency:</label>
+            <select id="toCurrency" class="form-select">
+                <!-- Options will be populated dynamically -->
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="amount" class="form-label">Amount:</label>
+            <input type="number" id="amount" class="form-control" placeholder="Enter amount" />
+        </div>
+        <button id="convert" class="btn btn-primary w-100">Convert</button>
+        <div id="result" class="mt-4 text-center"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
